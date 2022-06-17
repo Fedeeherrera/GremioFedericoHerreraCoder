@@ -7,7 +7,8 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  background-color: #2a2377;
+  background: rgb(34,74,95) no-repeat;
+  background: radial-gradient(circle, rgba(34,74,95,1) 0%, rgba(34,74,95,1) 62%, rgba(0,167,255,1) 100%);
 }
  
 header {
