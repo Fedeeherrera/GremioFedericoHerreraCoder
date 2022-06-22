@@ -10,34 +10,93 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/media.css" type="text/css">
+        <!-- BOOSTRAP CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     </head>
     <body id="bodyIndex">
         <header id="headerIndex">
-            <nav>
-                <ul>
-                    <li class="index__li"><a class="ul__a" href="./pages/turismo.html">Turismo</a></li>
-                    <li class="index__li"><a class="ul__a" href="#">Beneficios</a></li>
-                    <li class="index__li"><a href="index.html"><img class="logo_feb" src="./images/logo_feb.jpg" alt="Logo FEB"></a></li>
-                    <li class="index__li"><a class="ul__a" href="#">Gremial</a></li>
-                    <li class="index__li"><a class="ul__a" href="#">Afiliate</a></li>
-                </ul>
-            </nav>
+          <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid navbarColor">
+              <a  class="navbar-brand" href="./index.html"><img src="./images/logo_feb.jpg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                  <a class="nav-link fs-4" href="./pages/turismo.html">Turismo</a>
+                  <a class="nav-link fs-4" href="#">Beneficios</a>
+                  <a class="nav-link fs-4" href="#">Gremial</a>
+                  <a class="nav-link fs-4" href="#">Afiliate</a>
+                </div>
+              </div>
+            </div>
+          </nav>
         </header>
         <main class="mainIndex">           
-                <div class="noticiasFila1">
-                    <a class="div__img1" href="https://feb.org.ar/nota/2306/mirta-petrocini-anuncio-que-dejara-de-ser-presidente-de-la-feb-tras-16-anos/"><img src="./images/noticia1.jpg" alt="Noticia FEB 1"></a>
-                    <a class="div__img2" href="https://feb.org.ar/nota/2304/la-entidad-de-lomas-de-zamora-cumple-el-sueno-de-su-casa-propia/"><img src="./images/noticia2.jpeg" alt="Noticia FEB 2"></a>
-                    <a class="div__img3" href="https://feb.org.ar/nota/2303/el-fudb-le-planteo-al-ministro-sileoni-la-urgencia-del-aumento-salarial-y-resolucion-de-situaciones-educativas/"><img src="./images/noticia3.jpeg" alt="Noticia FEB 3"></a>
-                </div>
-                <div class="noticiasFila2">
-                    <a class="div__img4" href="https://feb.org.ar/nota/2301/reunion-del-fudb-previsional-con-la-direccion-provincial-de-jubilaciones--asesoramiento-y-certificaciones-de-la-dgcye/"><img src="./images/noticia4.jpg" alt="Noticia FEB 4"></a>
-                    <a class="div__img5" href="https://feb.org.ar/nota/2300/convenio-de-la-feb-con-universidad-de-la-plata-para-continuar-capacitando-a-los-docentes-de-nuestro-instituto/"><img src="./images/noticia5.jpeg" alt="Noticia FEB 5"></a>
-                    <a class="div__img6" href="https://feb.org.ar/nota/2298/reunion-de-la-feb-con-direccion-de-jubilaciones-y-certificaciones-de-la-dgcye/"><img src="./images/noticia6.jpeg" alt="Noticia FEB 6"></a>
-                </div>
+            <section class="row justify-content-around m-3 mt-5 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <a href="https://feb.org.ar/nota/2306/mirta-petrocini-anuncio-que-dejara-de-ser-presidente-de-la-feb-tras-16-anos/"><img src="./images/noticia1.jpg" class="card-img-top" alt="Noticia Feb 1"></a> 
+                    <div class="card-body">
+                      <p class="card-text text-center">MIRTA PETROCINI ANUNCIÓ QUE DEJARÁ DE SER PRESIDENTE DE LA FEB TRAS 16 AÑOS.</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <a href="https://feb.org.ar/nota/2304/la-entidad-de-lomas-de-zamora-cumple-el-sueno-de-su-casa-propia/"><img src="./images/noticia2.jpeg" class="card-img-top" alt="Noticia Feb 2"></a>
+                    <div class="card-body">
+                      <p class="card-text text-center">LA ENTIDAD DE LOMAS DE ZAMORA CUMPLE EL SUEÑO DE SU CASA PROPIA.</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <a href="https://feb.org.ar/nota/2303/el-fudb-le-planteo-al-ministro-sileoni-la-urgencia-del-aumento-salarial-y-resolucion-de-situaciones-educativas/"><img src="./images/noticia3.jpeg" class="card-img-top" alt="Noticia Feb 3"></a>
+                    <div class="card-body">
+                      <p class="card-text text-center">EL FUDB LE PLANTEÓ AL MINISTRO SILEONI LA URGENCIA DEL AUMENTO SALARIAL Y RESOLUCIÓN DE SITUACIONES EDUCATIVAS.</p>
+                    </div>
+                  </div>
+            </section>
+            <section class="row justify-content-around m-3">
+                <div class="card" style="width: 18rem;">
+                    <a href="https://feb.org.ar/nota/2301/reunion-del-fudb-previsional-con-la-direccion-provincial-de-jubilaciones--asesoramiento-y-certificaciones-de-la-dgcye/"> <img src="./images/noticia4.jpg" class="card-img-top"  alt="Noticia Feb 4"></a>
+                    <div class="card-body">
+                      <p class="card-text text-center">REUNIÓN DE LA FEB CON DIRECCIÓN DE JUBILACIONES Y CERTIFICACIONES DE LA DGCYE.</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <a href="https://feb.org.ar/nota/2300/convenio-de-la-feb-con-universidad-de-la-plata-para-continuar-capacitando-a-los-docentes-de-nuestro-instituto/"><img src="./images/noticia5.jpeg" class="card-img-top" alt="Noticia Feb 5"></a>
+                    <div class="card-body">
+                      <p class="card-text text-center">CONVENIO DE LA FEB CON UNIVERSIDAD DE LA PLATA PARA CONTINUAR CAPACITANDO A LOS DOCENTES DE NUESTRO INSTITUTO.</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <a href="https://feb.org.ar/nota/2298/reunion-de-la-feb-con-direccion-de-jubilaciones-y-certificaciones-de-la-dgcye/"><img src="./images/noticia6.jpeg" class="card-img-top" alt="Noticia Feb 6"></a>
+                    <div class="card-body">
+                      <p class="card-text text-center">REUNIÓN DEL FUDB PREVISIONAL con la DIRECCIÓN PROVINCIAL DE JUBILACIONES, ASESORAMIENTO y CERTIFICACIONES DE LA DGCYE.</p>
+                    </div>
+                  </div>
+            </section>
         </main>
         <footer class="footerIndex">
             <p class="p__footer">Federico Herrera ©copyright 2022 <br>
                 All rights reserved</p>
         </footer>
+        <!-- JavaScript Boostrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+<!-- <ul>
+    <li class="index__li"><a class="ul__a" href="./pages/turismo.html">Turismo</a></li>
+    <li class="index__li"><a class="ul__a" href="#">Beneficios</a></li>
+    <li class="index__li"><a href="index.html"><img class="logo_feb" src="./images/logo_feb.jpg" alt="Logo FEB"></a></li>
+    <li class="index__li"><a class="ul__a" href="#">Gremial</a></li>
+    <li class="index__li"><a class="ul__a" href="#">Afiliate</a></li>
+</ul> -->
