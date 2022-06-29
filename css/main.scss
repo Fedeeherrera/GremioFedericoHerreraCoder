@@ -1,23 +1,28 @@
-* {
-  margin: 0;
-  padding: 0;
+*{
+  margin:0;
+  padding:0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Lato", sans-serif;
-  background: rgb(34, 74, 95) no-repeat;
-  background: radial-gradient(circle, rgb(34, 74, 95) 0%, rgb(34, 74, 95) 62%, rgb(0, 167, 255) 100%);
-}
 
+body {
+  font-family: 'Lato', sans-serif;
+  background: rgb(34,74,95) no-repeat;
+  background: radial-gradient(circle, rgba(34,74,95,1) 0%, rgba(34,74,95,1) 62%, rgba(0,167,255,1) 100%);
+}
+ 
 header {
   height: 130px;
 }
+
+
+
 
 /*INDEX*/
 .background-header {
   background-color: #224A5F;
 }
+
 
 .footerIndex {
   width: 100%;
@@ -42,5 +47,3 @@ header {
   text-align: center;
   font-size: 1.3em;
 }
-
-/*# sourceMappingURL=styles.css.map */
