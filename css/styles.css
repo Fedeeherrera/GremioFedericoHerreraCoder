@@ -15,24 +15,7 @@ header {
   height: 130px;
 }
 
-a:hover { 
-  animation-duration: 1,5s;
-  animation-name: agrandarYRotar;
-  animation-iteration-count: 1;
-}
 
-@keyframes agrandarYRotar {
-  from {
-    transform: rotate(0deg);
-    transform: scale(1);
-  }
-
-  to {
-    transform: rotate(360deg);
-    transform: scale(2);
-  }
-  
-}
 
 
 /*INDEX*/
