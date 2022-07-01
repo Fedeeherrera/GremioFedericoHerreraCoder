@@ -1,64 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>FEB Afiliate</title>
-        <link rel="stylesheet" href="../css/styles.css" type="text/css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../css/media.css" type="text/css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
-        rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    </head>
-    <body>
-      <header id="headerIndex">
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid navbarColor">
-            <a  class="navbar-brand" href="../index.html"><img src="../images/logo_feb.jpg" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active fs-5"  href="./turismo.html">Turismo</a>
-                <a class="nav-link fs-5" href="./beneficios.html">Beneficios</a>
-                <a class="nav-link fs-5" href="./gremial.html">Gremial</a>
-                <a class="nav-link fs-5" href="./afiliate.html">Afiliate</a>
-              </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FEB Afiliate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="../css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="../css/media.css" type="text/css" />
+  </head>
+  <body>
+    <header id="headerIndex">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid navbarColor">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../images/logo_feb.jpg" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link fs-4" href="./turismo.html">Turismo</a>
+              <a class="nav-link fs-4" href="./beneficios.html">Beneficios</a>
+              <a class="nav-link fs-4" href="./gremial.html">Gremial</a>
+              <a class="nav-link fs-4 active" href="./afiliate.html">Afiliate</a>
             </div>
           </div>
-        </nav>
-      </header>
-      <main>
-          <div>
-              <h2 class="h2__presidenta">Presidenta</h2>
-              <img class="img__presidenta" src="../images/Presidenta.jpg" alt="Presidenta">
-          </div>
-          <div>
-              <form action="">
-                  <label class="nombre" for="name">Nombre:</label>
-                  <input type="text" name="name" id="nombre">
-                  <label class="email" for="email">Email:</label>
-                  <input type="text" name="email" id="email">
-                  <label class="numero" for="numero">Numero de telefono:</label>
-                  <input type="text" name="numero" id="numero">
-                  <label class="Consulta" for="consulta">Consulta:</label>
-                  <textarea name="consulta" id="consulta" cols="34" rows="10"></textarea>
-              </form>
-          </div>
-          <div>
-              <h2 class="h2__vicepresidente">Vicepresidente</h2>
-              <img class="img__vicepresidente" src="../images/Vicepresidente.jpg" alt="Vice-Presiedenta">
-          </div>
-      </main>
-      <footer>
-          <p>Federico Herrera ©copyright 2022</p>
-          <i>All rights reserved</i>
-      </footer>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    </body>
+        </div>
+      </nav>
+    </header>
+    <main id="afiliateMain">
+      <h2 class="h1Afiliate text-center">Si queres ser parte de FEB Las Flores o tenes 
+        alguna duda, completa el siguiente formulario con tus datos
+      </h2>
+      <div class="divFormulario">
+        <form class="formulario" action="">
+          <label class="nombre" for="name">Nombre</label>
+          <input type="text" name="name" id="nombre" />
+          <label class="email" for="email">Email</label>
+          <input type="text" name="email" id="email" />
+          <label class="numero" for="numero">Numero de telefono</label>
+          <input type="text" name="numero" id="numero" />
+          <label class="Consulta" for="consulta">Consulta</label>
+          <textarea
+            name="consulta"
+            id="consulta"
+            cols="34"
+            rows="10"></textarea>
+        </form>
+      </div>
+      <div class="divAutoridades">
+        <div class="presidenta">
+          <h2 class="h2__presidenta">Presidenta</h2>
+          <img
+            class="img__presidenta"
+            src="../images/Presidenta.jpg"
+            alt="Presidenta"/>
+        </div>
+        <div class="vicepresidente">
+          <h2 class="h2__vicepresidente">Vicepresidente</h2>
+          <img
+            class="img__vicepresidente"
+            src="../images/Vicepresidente.jpg"
+            alt="Vice-Presiedenta"/>
+        </div>
+      </div>
+    </main>
+    <footer class="footerAfiliate fs-4">
+      <p>Federico Herrera ©copyright 2022</p>
+      <i>All rights reserved</i>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
 </html>

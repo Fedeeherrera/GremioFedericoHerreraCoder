@@ -23,5 +23,17 @@
         margin-bottom: 50px;
     }
 
+    .gremialImg1, 
+    .gremialImg2,
+    .gremialImg3,
+    .gremialImg4 {
+        max-width: 500px;
+    }
+
+    .img__presidenta,
+    .img__vicepresidente {
+        width: 250px;
+        height: 180px;
+    }
 }
 

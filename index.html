@@ -1,90 +1,155 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>FEB Las Flores</title>
-        <link rel="stylesheet" href="./css/styles.css" type="text/css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./css/media.css" type="text/css">
-        <!-- BOOSTRAP CSS-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
-        rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    </head>
-    <body id="bodyIndex">
-        <header id="headerIndex">
-          <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid navbarColor">
-              <a  class="navbar-brand " href="./index.html"><img src="./images/logo_feb.jpg" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav ">
-                  <a class="nav-link fs-4 animate__flip" href="./pages/turismo.html">Turismo</a>
-                  <a class="nav-link fs-4 animate__flip" href="#">Beneficios</a>
-                  <a class="nav-link fs-4 animate__flip" href="#">Gremial</a>
-                  <a class="nav-link fs-4 animate__flip" href="#">Afiliate</a>
-                </div>
-              </div>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FEB Las Flores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="./css/media.css" type="text/css" />
+  </head>
+  <body id="bodyIndex">
+    <header id="headerIndex">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid navbarColor">
+          <a class="navbar-brand" href="./index.html"><img src="./images/logo_feb.jpg" alt=""/></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a
+                class="nav-link fs-4 wow animate__flip"
+                href="./pages/turismo.html">Turismo</a>
+              <a class="nav-link fs-4 wow animate__flip" href="./pages/beneficios.html">Beneficios</a>
+              <a class="nav-link fs-4 wow animate__flip" href="./pages/gremial.html">Gremial</a>
+              <a class="nav-link fs-4 wow animate__flip" href="./pages/afiliate.html">Afiliate</a>
             </div>
-          </nav>
-        </header>
-        <main class="mainIndex">           
-            <section class="row justify-content-around m-3 mt-5 mb-4">
-                <div class="card" style="width: 18rem;">
-                    <a href="https://feb.org.ar/nota/2306/mirta-petrocini-anuncio-que-dejara-de-ser-presidente-de-la-feb-tras-16-anos/"><img src="./images/noticia1.jpg" class="card-img-top" alt="Noticia Feb 1"></a> 
-                    <div class="card-body">
-                      <p class="card-text text-center">MIRTA PETROCINI ANUNCIÓ QUE DEJARÁ DE SER PRESIDENTE DE LA FEB TRAS 16 AÑOS.</p>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 18rem;">
-                    <a href="https://feb.org.ar/nota/2304/la-entidad-de-lomas-de-zamora-cumple-el-sueno-de-su-casa-propia/"><img src="./images/noticia2.jpeg" class="card-img-top" alt="Noticia Feb 2"></a>
-                    <div class="card-body">
-                      <p class="card-text text-center">LA ENTIDAD DE LOMAS DE ZAMORA CUMPLE EL SUEÑO DE SU CASA PROPIA.</p>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 18rem;">
-                    <a href="https://feb.org.ar/nota/2303/el-fudb-le-planteo-al-ministro-sileoni-la-urgencia-del-aumento-salarial-y-resolucion-de-situaciones-educativas/"><img src="./images/noticia3.jpeg" class="card-img-top" alt="Noticia Feb 3"></a>
-                    <div class="card-body">
-                      <p class="card-text text-center">EL FUDB LE PLANTEÓ AL MINISTRO SILEONI LA URGENCIA DEL AUMENTO SALARIAL Y RESOLUCIÓN DE SITUACIONES EDUCATIVAS.</p>
-                    </div>
-                  </div>
-            </section>
-            <section class="row justify-content-around m-3">
-                <div class="card" style="width: 18rem;">
-                    <a href="https://feb.org.ar/nota/2301/reunion-del-fudb-previsional-con-la-direccion-provincial-de-jubilaciones--asesoramiento-y-certificaciones-de-la-dgcye/"> <img src="./images/noticia4.jpg" class="card-img-top"  alt="Noticia Feb 4"></a>
-                    <div class="card-body">
-                      <p class="card-text text-center">REUNIÓN DE LA FEB CON DIRECCIÓN DE JUBILACIONES Y CERTIFICACIONES DE LA DGCYE.</p>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 18rem;">
-                    <a href="https://feb.org.ar/nota/2300/convenio-de-la-feb-con-universidad-de-la-plata-para-continuar-capacitando-a-los-docentes-de-nuestro-instituto/"><img src="./images/noticia5.jpeg" class="card-img-top" alt="Noticia Feb 5"></a>
-                    <div class="card-body">
-                      <p class="card-text text-center">CONVENIO DE LA FEB CON UNIVERSIDAD DE LA PLATA PARA CONTINUAR CAPACITANDO A LOS DOCENTES DE NUESTRO INSTITUTO.</p>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 18rem;">
-                    <a href="https://feb.org.ar/nota/2298/reunion-de-la-feb-con-direccion-de-jubilaciones-y-certificaciones-de-la-dgcye/"><img src="./images/noticia6.jpeg" class="card-img-top" alt="Noticia Feb 6"></a>
-                    <div class="card-body">
-                      <p class="card-text text-center">REUNIÓN DEL FUDB PREVISIONAL con la DIRECCIÓN PROVINCIAL DE JUBILACIONES, ASESORAMIENTO y CERTIFICACIONES DE LA DGCYE.</p>
-                    </div>
-                  </div>
-            </section>
-        </main>
-        <footer class="footerIndex">
-            <p class="p__footer">Federico Herrera ©copyright 2022 <br>
-                All rights reserved</p>
-        </footer>
-        <!-- JavaScript Boostrap -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    </body>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="mainIndex">
+      <section class="row justify-content-around m-3 mt-5 mb-4">
+        <div class="card" style="width: 18rem">
+          <a
+            href="https://feb.org.ar/nota/2306/mirta-petrocini-anuncio-que-dejara-de-ser-presidente-de-la-feb-tras-16-anos/"><img
+              src="./images/noticia1.jpg"
+              class="card-img-top"
+              alt="Noticia Feb 1"/></a>
+          <div class="card-body">
+            <p class="card-text text-center">
+              MIRTA PETROCINI ANUNCIÓ QUE DEJARÁ DE SER PRESIDENTE DE LA FEB
+              TRAS 16 AÑOS.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <a
+            href="https://feb.org.ar/nota/2304/la-entidad-de-lomas-de-zamora-cumple-el-sueno-de-su-casa-propia/"><img
+              src="./images/noticia2.jpeg"
+              class="card-img-top"
+              alt="Noticia Feb 2"/></a>
+          <div class="card-body">
+            <p class="card-text text-center">
+              LA ENTIDAD DE LOMAS DE ZAMORA CUMPLE EL SUEÑO DE SU CASA PROPIA.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <a
+            href="https://feb.org.ar/nota/2303/el-fudb-le-planteo-al-ministro-sileoni-la-urgencia-del-aumento-salarial-y-resolucion-de-situaciones-educativas/"><img
+              src="./images/noticia3.jpeg"
+              class="card-img-top"
+              alt="Noticia Feb 3"/></a>
+          <div class="card-body">
+            <p class="card-text text-center">
+              EL FUDB LE PLANTEÓ AL MINISTRO SILEONI LA URGENCIA DEL AUMENTO
+              SALARIAL Y RESOLUCIÓN DE SITUACIONES EDUCATIVAS.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="row justify-content-around m-3">
+        <div class="card" style="width: 18rem">
+          <a
+            href="https://feb.org.ar/nota/2301/reunion-del-fudb-previsional-con-la-direccion-provincial-de-jubilaciones--asesoramiento-y-certificaciones-de-la-dgcye/">
+            <img
+              src="./images/noticia4.jpg"
+              class="card-img-top"
+              alt="Noticia Feb 4"/></a>
+          <div class="card-body">
+            <p class="card-text text-center">
+              REUNIÓN DE LA FEB CON DIRECCIÓN DE JUBILACIONES Y CERTIFICACIONES
+              DE LA DGCYE.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <a
+            href="https://feb.org.ar/nota/2300/convenio-de-la-feb-con-universidad-de-la-plata-para-continuar-capacitando-a-los-docentes-de-nuestro-instituto/"><img
+              src="./images/noticia5.jpeg"
+              class="card-img-top"
+              alt="Noticia Feb 5"/></a>
+          <div class="card-body">
+            <p class="card-text text-center">
+              CONVENIO DE LA FEB CON UNIVERSIDAD DE LA PLATA PARA CONTINUAR
+              CAPACITANDO A LOS DOCENTES DE NUESTRO INSTITUTO.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <a
+            href="https://feb.org.ar/nota/2298/reunion-de-la-feb-con-direccion-de-jubilaciones-y-certificaciones-de-la-dgcye/"><img
+              src="./images/noticia6.jpeg"
+              class="card-img-top"
+              alt="Noticia Feb 6"/></a>
+          <div class="card-body">
+            <p class="card-text text-center">
+              REUNIÓN DEL FUDB PREVISIONAL con la DIRECCIÓN PROVINCIAL DE
+              JUBILACIONES, ASESORAMIENTO y CERTIFICACIONES DE LA DGCYE.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footerIndex">
+      <p class="p__footer">
+        Federico Herrera ©copyright 2022 <br />
+        All rights reserved
+      </p>
+    </footer>
+    <!-- JavaScript Boostrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
 </html>
-
-
-
