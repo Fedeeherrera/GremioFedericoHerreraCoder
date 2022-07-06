@@ -1,7 +1,18 @@
+$estilo: (
+  color: #224A5F,
+  margenArriba: 25px
+);
+
 *{
   margin:0;
   padding:0;
   box-sizing: border-box;
+}
+
+.propiedadExtend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -17,10 +28,11 @@ header {
 
 
 /*INDEX*/
-.background-header {
-  background-color: #224A5F;
-}
 
+.tituloIndex {
+  text-align: center;
+  margin-top: 60px;
+}
 
 .footerIndex {
   width: 100%;
@@ -29,18 +41,18 @@ header {
 }
 
 .navbarColor {
-  background-color: #224A5F;
+  background-color: map-get($estilo , color);
   z-index: 1;
 }
 
 .containerImgTurismo {
   display: flex;
   justify-content: space-around;
-  margin-top: 25px;
+  margin-top: map-get($estilo , margenArriba);
 }
 
 .turismo__footer {
-  margin-top: 25px;
+  margin-top: map-get($estilo , margenArriba);
   width: 100%;
   text-align: center;
   font-size: 1.3em;
@@ -49,9 +61,7 @@ header {
 /*BENEFICIOS*/
 
 #main__beneficios {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @extend .propiedadExtend;
   margin-top: 3rem;
 }
 
@@ -59,9 +69,7 @@ header {
 #main__div-2,
 #main__div-3,
 #main__div-4 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @extend .propiedadExtend;
   margin-bottom: 15px;
   text-align: center;
 }
@@ -72,12 +80,18 @@ header {
 
 
 /*GREMIAL*/
+.tituloGremial {
+  margin-bottom: 50px;
+}
+
 
 .main__gremial {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .gremialImg1, 
@@ -92,6 +106,10 @@ header {
 }
 
 /*AFILIATE*/
+.tituloAFiliate {
+  margin-top: 70px;
+}
+
 
 #afiliateMain {
   display: flex;
