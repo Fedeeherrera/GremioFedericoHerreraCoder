@@ -1,0 +1,6 @@
+En los archivos sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué este párrafo que explica el 
+contenido de cada sitio: “Esta es la página principal de FEB Las Flores. Gremio docente dirigido por Mirta Petrocini"
+Palabras clave: Por medio de la etiqueta meta name keywords, agregué las palabras clave describen a todas las 
+páginas de mi sitio: "Feb, Gremio, docente, Gremio Docente, Maestros, Alumnos, Politica"
+Encabezado: para el encabezado del h1 utilice en cada pagina el titulo de cada una.
